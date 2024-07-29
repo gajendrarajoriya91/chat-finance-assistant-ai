@@ -70,10 +70,10 @@ const fetchData = (file) => {
 
 const streamResponse = async (responseText, res) => {
   try {
-    const chunks = responseText.match(/.{1,50}/g); // Split response into 50-character chunks
+    const chunks = responseText.match(/.{1,50}/g); 
     for (const chunk of chunks) {
       res.write(chunk);
-      await new Promise((resolve) => setTimeout(resolve, 100)); // Simulate streaming delay
+      await new Promise((resolve) => setTimeout(resolve, 100)); 
     }
     res.end();
   } catch (error) {
