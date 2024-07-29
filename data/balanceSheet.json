@@ -1,0 +1,29 @@
+{
+    "balanceSheet": {
+      "assets": {
+        "currentAssets": {
+          "cashAndCashEquivalents": 50000,
+          "accountsReceivable": 20000,
+          "inventory": 15000
+        },
+        "nonCurrentAssets": {
+          "propertyPlantEquipment": 100000,
+          "longTermInvestments": 25000
+        }
+      },
+      "liabilities": {
+        "currentLiabilities": {
+          "accountsPayable": 15000,
+          "shortTermDebt": 10000
+        },
+        "nonCurrentLiabilities": {
+          "longTermDebt": 50000
+        }
+      },
+      "equity": {
+        "retainedEarnings": 30000,
+        "commonStock": 40000
+      }
+    }
+  }
+  

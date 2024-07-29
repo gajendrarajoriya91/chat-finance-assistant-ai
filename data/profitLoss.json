@@ -1,0 +1,18 @@
+{
+    "profitLoss": {
+      "revenue": {
+        "sales": 120000,
+        "serviceIncome": 30000
+      },
+      "expenses": {
+        "costOfGoodsSold": 50000,
+        "operatingExpenses": 20000,
+        "salaries": 40000,
+        "rent": 10000,
+        "utilities": 5000,
+        "depreciation": 8000
+      },
+      "netIncome": 17000
+    }
+  }
+  
