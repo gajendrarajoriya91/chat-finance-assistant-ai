@@ -2,7 +2,7 @@ const conversations = {};
 
 const getConversation = (userId) => {
   const messages = conversations[userId] || [];
-  return messages.slice(-25); // return last 25 messages
+  return messages.slice(-25); 
 };
 
 const saveConversation = (userId, messages) => {
